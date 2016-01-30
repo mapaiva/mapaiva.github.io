@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+header {
+  position: fixed;
+  width: 25%;
+  height: 100%;
+  background: linear-gradient(to bottom, #a5d6db, #72a9b0);
+  /*background: linear-gradient(45deg, #0077b5,#008891);*/
+  text-align: center;
+  color: #FFF;
+  box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+@media only screen and (max-width: 680px) {
+  header {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .stage {
+    position: relative !important;
+    width: 100% !important;
+    padding: 40px 50px !important;
+  }
+
+  .stage h1 {
+    font-size: 2em !important;
+  }
+
+  .stage p {
+    font-size: 0.9em !important;
+  }
+}
+
+header .avatar {
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  border: rgba(255,255,255,0.6) 5px solid;
+}
+
+header h1 {
+  font-family: Bitter;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+
+header h2 {
+  font-family: 'Open Sans Condensed';
+  font-weight: lighter;
+  padding:0 30px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  font-family: 'Open Sans Condensed';
+  text-decoration: none;
+  color: #FFF;
+  font-size: 1.4em;
+  padding: 20px 30px;
+  display: block;
+  transition: all ease 0.2s;
+}
+
+header nav ul li a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+header nav ul li a.selected {
+  background: rgba(255, 255, 255, 0.5);
+  color: #72a9b0 !important;
+  /*color: #008596 !important;*/
+}
+
+header .social {
+  padding: 30px 0;
+  font-size: 1.5em;
+}
+
+header .social a {
+  padding: 0 10px;
+  color: #FFF;
+  text-decoration: none;
+  transition: all ease 0.2s;
+}
+
+header .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.stage {
+  position: absolute;
+  width: 75%;
+  top: 0;
+  right: 0;
+  background: #f4f4f4;
+  min-height: 100%;
+  padding: 40px 100px;
+  box-sizing: border-box;
+  color: #333;
+}
+
+.stage h1 {
+  font-family: Bitter;
+  font-size: 3em;
+  margin-top: 0;
+}
+
+.stage p {
+  font-family: Bitter;
+  line-height: 2;
+  font-size: 1.2em;
+  text-align: justify;
+  color: rgba(51, 51, 51, .75);
+}
+
+.stage p a {
+  color: #4C97A0;
+  text-decoration: underline;
+}
+
+.stage p a:hover {
+  text-decoration: none;
+}
+
+.stage .social {
+  padding: 30px 0;
+  font-size: 2em;
+}
+
+.stage .social a {
+  padding: 0 10px;
+  color: #333;
+  text-decoration: none;
+  transition: all ease 0.2s;
+}
+
+.stage .social a:hover {
+  color: rgba(51, 51, 51, 0.5);
+}

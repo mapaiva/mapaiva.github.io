@@ -1,0 +1,95 @@
+#projects-container {
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+#projects-container .github-box {
+  font-family: Arial, sans-serif !important;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  color: #666;
+  border-radius: 5px;
+  margin-right: 1.2em;
+  margin-bottom: 2em;
+  width: 46%;
+  line-height: 1em;
+  display: inline-block;
+}
+
+#projects-container .github-box a {
+  color: #4183C4;
+  border: none;
+}
+
+#projects-container .github-box .github-box-header {
+  border-bottom: 1px solid #ddd;
+  border-radius: 5px 5px 0 0;
+  background: #fcfcfc;
+  background: -moz-linear-gradient(#fcfcfc,#ebebeb);
+  background: -webkit-linear-gradient(#fcfcfc,#ebebeb);
+  background: linear-gradient(#fcfcfc,#ebebeb);
+}
+
+#projects-container .github-box .github-box-header h3 {
+  font-weight: normal;
+  font-size: 16px;
+  color: gray;
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
+}
+
+#projects-container .github-box .github-box-header h3 a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#projects-container .github-box .github-box-header .github-stats {
+  background: #FFF;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 21px;
+  height: 21px;
+  float: right;
+  margin: 5px;
+}
+
+#projects-container .github-box .github-box-header .github-stats a {
+  display: inline-block;
+  color: #666;
+  padding: 0 5px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+#projects-container .github-box .github-box-header .github-stats a i {
+  margin-right: 3px;
+}
+
+#projects-container .github-box .github-box-header .github-stats a:hover {
+  text-decoration: underline;
+}
+
+#projects-container .github-box .github-box-header .github-stats .repo-watchers,
+#projects-container .github-box .github-box-header .github-stats .repo-stargazers {
+  border-right: 1px solid #ddd;
+}
+
+#projects-container .github-box .github-box-content {
+  padding: 10px;
+  font-size: 0.85em;
+}
+
+#projects-container .github-box .github-box-content a:hover {
+  text-decoration: none;
+}
+
+#projects-container .github-box .github-box-update {
+  font-size: 0.85em;
+  border-top: 1px solid #ddd;
+  background: #FFF;
+  border-radius: 0 0 3px 3px;
+  padding: 10px;
+}
