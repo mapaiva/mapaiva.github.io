@@ -10,7 +10,6 @@ header {
   width: 25%;
   height: 100%;
   background: linear-gradient(to bottom, #a5d6db, #72a9b0);
-  /*background: linear-gradient(45deg, #0077b5,#008891);*/
   text-align: center;
   color: #FFF;
   box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.6);
@@ -80,7 +79,6 @@ header nav ul li a:hover {
 header nav ul li a.selected {
   background: rgba(255, 255, 255, 0.5);
   color: #72a9b0 !important;
-  /*color: #008596 !important;*/
 }
 
 header .social {

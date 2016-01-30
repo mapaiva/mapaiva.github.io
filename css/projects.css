@@ -1,6 +1,10 @@
 #projects-container {
   margin-top: 30px;
   overflow: hidden;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 #projects-container .github-box {
@@ -9,9 +13,8 @@
   border: 1px solid #ddd;
   color: #666;
   border-radius: 5px;
-  margin-right: 1.2em;
   margin-bottom: 2em;
-  width: 46%;
+  width: 48%;
   line-height: 1em;
   display: inline-block;
   box-sizing: border-box;
