@@ -43,6 +43,7 @@ header .avatar {
   border-radius: 50%;
   margin-top: 20px;
   border: rgba(255,255,255,0.6) 5px solid;
+  box-shadow: 1px 1px 10px #67A0A7;
 }
 
 header h1 {
